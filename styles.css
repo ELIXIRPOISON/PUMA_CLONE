@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+
+.nav-logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #c65e0e;
+    font-weight: bold;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 0; /* Square corners */
+    outline: none;
+    width: 100px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.nav-icons a,i{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.second {
+    background-color: #414584;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.second p {
+    margin: 5px 0;
+}
+
+.second-links {
+    margin: 10px 0;
+}
+
+.second-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.second-links a:hover {
+    text-decoration: underline;
+}
+.first {
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1280/cms/images/32f16efd520940f1b163cb907f2a58f4fe051313?_a=BAMCkGfi0');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.content {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.three {
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1280/cms/images/f5eaefeafb5a5ff5ca2d77b22f6b7653aed842da?_a=BAMCkGfi0');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.three-content {
+    background: rgba(0, 0, 0, 0); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.three h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.three h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.three-btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.three-btn:hover {
+    background-color: #333;
+}
+
+.palermo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.palermo-content {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.text-content {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.text-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.media-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.video {
+    width: 100%;
+    border-radius: 4px;
+}
+.playbook-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.playbook-section h1 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.playbook-section h2 {
+    font-size: 1.5em;
+    color: grey;
+    margin-bottom: 20px;
+}
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.photo-item {
+    width: 200px;
+    text-align: center;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-item h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.shop-button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #333;
+}
+
+.fenty-section {
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1280/cms/images/c7e563093ce8968cf56a0dbabc3aed8e6003eec0?_a=BAMAH2fi0');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.fenty-content {
+    max-width: 400px;
+}
+
+.fenty-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.fenty-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #333;
+}
+.rocky-section {
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/a2d888ff2d01d208b66a4af9fe8edfde53b1e119?_a=BAMCkGfi0');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.rocky-content {
+    text-align: right;
+    max-width: 400px;
+}
+
+.rocky-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.rocky-content h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.explore-button, .signup-button {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.explore-button {
+    background-color: #000;
+}
+
+.signup-button {
+    background-color: #444;
+}
+
+.explore-button:hover {
+    background-color: #333;
+}
+
+.signup-button:hover {
+    background-color: #666;
+}
+.rocky-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+
+
+
+
+
+
+
+.puma-one8-section {
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1280/cms/images/953b99043fc3ec28d0f78a56167e739a51d6afc8?_a=BAMCkGfi0');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.content {
+    max-width: 400px;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Ensures text stays on one line */
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #333;
+}
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-item h1 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+.season-threads {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5; /* Background color */
+}
+
+.season-threads h1 {
+    font-size: 2.5em;
+    color: #333; /* Text color */
+    margin: 0;
+}
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-item h1 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+.sport-section {
+    background-image: url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_854/cms/images/21e926883273ea2f81973344ac8fdd4174716bd5?_a=BAMCkGfi0');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #333;
+}
+
+
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.footer-column h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
